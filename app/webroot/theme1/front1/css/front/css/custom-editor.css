@@ -1,0 +1,127 @@
+/* custom editor */
+.addstory
+{
+ background: #dddddd none repeat scroll 0 0;
+    border-radius: 0.2em;
+    color: #3fa07a;
+    font-size: 3em;
+    line-height: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.3em 0;
+    text-align: center;
+    width: 68.5%;
+}
+.addstory:hover
+{
+	background: #BFC4C9 none repeat scroll 0 0;
+}
+.storymode
+{
+margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.st-block-controls {
+    background-color: #FFF;
+    color: #42474b;
+    cursor: pointer;  
+    padding: 1.2em 0;
+    text-align: center;
+    margin:0 10px;
+}
+.st-block-control {
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.125em;
+    margin: 0 1em 0 0;
+}
+.st-block-control .st-icon {
+    color: #444;
+    display: block;
+    font-size: 2.25em;
+    margin: 0 0 0.2em;
+}
+.st-icon {
+    cursor: pointer;
+    font-family: "ST-Icons";
+    font-feature-settings: "liga", "dlig";
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: optimizelegibility;
+    text-transform: none;
+}
+.st-heading-block{
+	border: 2px solid #eee;
+    padding: 1.8em 1.8em;
+    position: relative;
+	}	
+.st-heading-input
+{
+	 font-size: 2.2em;
+    font-weight: 700;
+    line-height: 1.1;
+    min-height: 30px;
+    text-align: center;	
+}
+.st-heading-text
+{
+	 font-size: 1.275em;
+    line-height: 1.45;
+    min-height: 3em;
+	text-align: left;
+	}	
+
+.st-heading-video
+{
+	background-color:#F3F3F3;
+	 font-size: 1.275em;
+   text-align: center;
+   padding:10px;
+	}	
+.st-heading-video p
+{
+	font-size:20px;
+	color:#333;
+	}	
+.st-editor-input
+{
+	border:1px #C9C9C9 solid;
+	display: block;
+    margin: 0.4em auto 0;
+    text-align: center;
+    width: 80%;
+	}
+.show_editor_block{
+margin: 0 auto;
+padding: 20px;}
+
+.edit-dl{ text-align:right;}
+.st-heading-block{ position:relative;}
+.st-heading-block:hover .edit-dl a{ display: inline-block;}
+.edit-dl a{background: #4ccaf7 none repeat scroll 0 0;
+    bottom: 0px;
+    color: #fff;
+    display: none;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0px;}
+
+.st-heading-block:hover .drag-dl a{ display: inline-block;}
+.drag-dl a{background: #4ccaf7 none repeat scroll 0 0;
+    top: 0px;
+    color: #fff;
+    display: none;
+    padding: 5px 12px;
+    position: absolute;
+    right: 0px;}
+	
+.editor_border {
+border-bottom: 2px solid #000;
+}	
+.publish-custom{
+    border: none;
+    box-shadow: none;
+}

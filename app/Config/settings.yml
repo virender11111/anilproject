@@ -1,0 +1,39 @@
+---
+activationCode_expHours: 48
+BuzzzAddressHub: |
+    <p>96D South End</p>
+    <p>South Croydon</p>
+    <p>Surrey</p>
+    <p>CR0 1DQ</p>
+    <p><strong>Phone :</strong> <span>+44 (0)20 8603 7230</span></p>
+BuzzzHubDorection: '<p>No more than 15 minutes from East Croydon station by buses 119, 312 and 466. Alight at Aberdeen Road (Stop S) and the Buzzz Hub is 2 minutes walk from the bus stop.</p>'
+FrontierSupportServicesAddress: |
+    <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+    <p itemprop="streetAddress">27-29 Brighton Road</p>
+    <p itemprop="addressLocality">South Croydon</p>
+    <p itemprop="addressRegion">Surrey</p>
+    <p itemprop="postalCode">CR2 6EB</p>
+    </div>
+    <p><strong>Phone :</strong> <span itemprop="telephone">+44 (0)20 8603 7230</span></p>
+HeadOfficeDirections: '<p>No more than 20 minutes from East Croydon station by buses 312 and 466. Alight at Upland Road, Whitgift School (Stop GH).<br />We are 2 minutes walk from the bus stop.</p>'
+maxsignin_attends: 2
+maxsignup_attends: 1
+Payout.is_paypal: 1
+Payout.is_stripe: 1
+PromoCodeVideo: https://www.youtube.com/watch?v=zXzY27HyevA
+Setting.youtube: https://www.youtube.com/channel/UCPnER_dCsUOuD7MmOb86vOA
+Site.contact: +44 (0)20 8603 7230
+Site.copyright: Frontier | All rights reserved
+Site.email: sagar.jajoriya@planetwebsolution.com
+Site.owner: Frontier
+Site.paging: 3
+Site.title: Frontier
+Social.delicious: '#'
+Social.facebook_url: http://facebook.com
+Social.gplus: https://plus.google.com
+Social.gplus_url: '#'
+Social.instagram_url: https://instagram.com
+Social.linkedin: '#'
+Social.rss: '#'
+Social.tweeter_url: planetwebsol
+Social.youtube: https://www.youtube.com/channel/UCPnER_dCsUOuD7MmOb86vOA

@@ -1,0 +1,116 @@
+---
+frontier-home: 
+    plugin: false
+    controller: pages
+    action: view
+    0: frontier-home
+who-we-are: 
+    plugin: false
+    controller: pages
+    action: view
+    0: who-we-are
+what-we-do: 
+    plugin: false
+    controller: pages
+    action: view
+    0: what-we-do
+specialist-services: 
+    plugin: false
+    controller: pages
+    action: view
+    0: specialist-services
+quality-assurance: 
+    plugin: false
+    controller: pages
+    action: view
+    0: quality-assurance
+our-partners: 
+    plugin: false
+    controller: pages
+    action: view
+    0: our-partners
+testimonials: 
+    plugin: false
+    controller: pages
+    action: view
+    0: testimonials
+our-team: 
+    plugin: false
+    controller: pages
+    action: view
+    0: our-team
+job-with-us: 
+    plugin: false
+    controller: pages
+    action: view
+    0: job-with-us
+contact-us: 
+    plugin: false
+    controller: pages
+    action: view
+    0: contact-us
+buzz-video: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-video
+buzz-home-page: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-home-page
+buzz-team: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-team
+brokerage: 
+    plugin: false
+    controller: pages
+    action: view
+    0: brokerage
+home-content: 
+    plugin: false
+    controller: pages
+    action: view
+    0: home-content
+buzz-brokerage-video: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-brokerage-video
+buzz-team-header-video: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-team-header-video
+buzz-membership: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-membership
+buzz-membership-video: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-membership-video
+buzz-team-video: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-team-video
+buzz-brokerage-header-video: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-brokerage-header-video
+buzz-membership-header-video: 
+    plugin: false
+    controller: pages
+    action: view
+    0: buzz-membership-header-video
+asdasd: 
+    plugin: false
+    controller: pages
+    action: view
+    0: asdasd

@@ -1,0 +1,334 @@
+msgstr ""
+"Project-Id-Version: "Hopajim 1.0\n"
+"POT-Creation-Date: 2015-11-23 20:08+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <vineet.verma@planetwebsolution.com>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+
+#Global validation errors
+
+msgid "AreYouSure"
+msgstr "Are you sure ?" 
+
+msgid "Welcome"
+msgstr "Welcome" 
+
+msgid "CanNotDelete"
+msgstr "You can not delete %s"
+
+msgid "ErrorLabel"
+msgstr "Error"
+
+msgid "RememberMe"
+msgstr "Remember Me"
+
+# Model validation messages
+
+msgid "notEmpty"
+msgstr "This field cannot be left blank."
+
+msgid "notFound"
+msgstr "%s not found"
+
+msgid "pleaseSelect"
+msgstr "Please select an option."
+
+msgid "maxLength"
+msgstr "This field must be no larger than %d characters long."
+
+msgid "validemail"
+msgstr "Please provide a valid email address."
+
+msgid "emailExists"
+msgstr "Email address already in use."
+
+msgid "isUnique"
+msgstr "This has already been taken."
+
+msgid "minLength"
+msgstr "This field must be at least %d characters long."
+
+msgid "passwordNotMatch"
+msgstr "Password don't matched."
+
+msgid "IsNumeric"
+msgstr "Should be greater than or equal to 0"
+
+msgid "GreaterZero"
+msgstr "Should be greater than 0"
+
+msgid "URL"
+msgstr "Please enter a valid URL"
+
+msgid "notPermission"
+msgstr "You don't have permission to doing this."
+
+msgid "usersNotFound"
+msgstr "Sorry. You don't have users to send email."
+
+msgid "duplicate"
+msgstr "Sorry. You already have saved this data ."
+
+msgid "sizeOne"
+msgstr "Please select atleast one size."
+
+msgid "colorOne"
+msgstr "Please select atleast one color."
+
+msgid "fbLogout"
+msgstr "You've successfully log out from your facebook account."
+
+msgid "fbNotLogout"
+msgstr "You couldn't log out from your facebook account."
+
+msgid "fbAccountNotConnect"
+msgstr "You've not connected your account to your facebook account. Click <a href='%s'>here</a> to connect your account. "
+
+
+# Common action messages
+
+msgid "saved1"
+msgstr "The %s have been saved."
+
+msgid "saved"
+msgstr "The %s has been saved."
+
+msgid "goalDropError"
+msgstr "Can't active goal drop feature because your order count is less than %s."
+
+msgid "notSaved"
+msgstr "The %s could not be saved. Please try again."
+
+msgid "send"
+msgstr "The %s has been sent."
+
+msgid "notSend"
+msgstr "The %s could not be sent. Please try again."
+
+msgid "deleted"
+msgstr "The %s has been deleted."
+
+msgid "notDeleted"
+msgstr "The %s could not be deleted. Please try again."
+
+msgid "faqExists"
+msgstr "First delete all related faqs."
+
+msgid "invalidLoginDetails"
+msgstr "Invalid Email Address and Password."
+
+msgid "logoutMessage"
+msgstr "Log out successfully"
+
+msgid "selectoption"
+msgstr "Please select an action and try again."
+
+msgid "operationnotdone"
+msgstr "Operation could not be completed."
+
+msgid "notSelected"
+msgstr "Please select %s and try again."
+
+msgid "invalidAccess"
+msgstr "Invlid Access."
+
+msgid "EmailNotExistes"
+msgstr "Email address you entered does not exist in our database."
+
+msgid "NoResult"
+msgstr "Oops! There are no %s posted yet."
+
+msgid "pickOne"
+msgstr "Please pick %s to delete."
+
+
+# Common title messages
+msgid "add"
+msgstr "Add %s"
+
+msgid "edit"
+msgstr "Edit %s"
+
+msgid "manage"
+msgstr "Manage %s"
+
+msgid "adminLogin"
+msgstr "Admin Login"
+
+msgid "CommonError"
+msgstr "An error occurred. Please try again."
+
+# User Contoller Message - Login
+
+msgid "InvalidPassword"
+msgstr "Invalid password."
+
+msgid "HeaderForLoginPopup"
+msgstr "Login"
+
+msgid "DontHaveAnAccount"
+msgstr "Don't have an account?"
+
+msgid "SignUp"
+msgstr "Sign-up"
+
+msgid "HaveAnAccount"
+msgstr "Have an account?"
+
+# User Contoller Meaasage - Register
+msgid "RegisterSuccess"
+msgstr "Thank you for registering with Hopajim. Please check your e-mail inbox as your e-mail has just been sent."
+
+msgid "InactiveAccount"
+msgstr "Your account has not been activated. Please refer to validation email sent to your account."
+
+msgid "InvalidActCode"
+msgstr "It seems like you already have activated your account."
+
+msgid "ConfirmationAccount"
+msgstr "Thank you for confirming your account. You can now login to your dashboard."
+
+msgid "EmailDBCheck"
+msgstr "Entered email address doesn't exist in our database."
+
+msgid "ResendActivation"
+msgstr "Please check your e-mail inbox as your  e-mail confirmation has just been sent."
+
+msgid "AmountNotGreater"
+msgstr "Amount should not be greater than total pending earnings."
+
+msgid "TermAndCondTextRegistrationPopup"
+msgstr "By signing up I approve my registration and that I've read, understood and agreed the "
+
+msgid "TermAndCondition"
+msgstr "Terms & conditions"
+
+msgid "UpdateLabelRegistrationPopup"
+msgstr "Send me messages, updates and personal information"
+
+msgid "NewsLattersLabelRegistrationPopup"
+msgstr "Send me newsletters & promotional materials"
+
+
+
+# User Contoller Message - Forgot Password
+msgid "ForgotPassword"
+msgstr "Forgot Password"
+
+msgid "PasswordEmail"
+msgstr "Reset Password link has been sent on your mail address."
+
+msgid "NewPassword"
+msgstr "Reset password link has already been sent to your email address"
+
+msgid "PasswordInactive"
+msgstr "Your account is inactive. Please contact our administrator."
+
+msgid "CantUseEmail"
+msgstr "You can't use this email."
+
+msgid "TokerExp"
+msgstr "Token has been expired."
+
+msgid "PasswordReset"
+msgstr "Your password has been reset successfully, please login to continue."
+
+msgid "Log-in"
+msgstr "Log-in"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Registration"
+msgstr "Registration"
+
+msgid "InvalidBetaCode"
+msgstr "Please enter a valid beta code."
+
+msgid "EnterBetaCode"
+msgstr "Enter Beta code to continue registration"
+
+
+# Dashboard section - See How You Compare
+
+msgid "seeCompareTitle"
+msgstr "See How You Compare"
+
+msgid "seeCompareSubTitle"
+msgstr "Compare your Esfero score against other members:"
+
+
+msgid "RecommendationDismiss"
+msgstr "%s has been dismiss successfully."
+
+msgid "RecommendationConfirm"
+msgstr "Are you sure want to dismiss this %s?"
+
+# Footer Links
+
+msgid "aboutus"
+msgstr "About Us"
+
+msgid "About"
+msgstr "About"
+
+msgid "termcondition"
+msgstr "Terms & Conditions"
+
+msgid "privacypolicy"
+msgstr "Privacy Policy"
+
+msgid "careers"
+msgstr "Careers"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+
+#Lessons Controller and related
+msgid "NotValidLessonId"
+msgstr "Please provide a proper valid lesson id."
+
+msgid "LessonExists"
+msgstr "Lesson exists"
+
+msgid "LessonNotExists"
+msgstr "Lesson not exists"
+
+msgid "LessonIsUserPermission"
+msgstr "User has permission to edit this lesson."
+
+msgid "LessonUserPermissionNot"
+msgstr "User has not permission to edit."
+
+msgid "NextDayNotPick"
+msgstr "You can not add next day's time."
+
+msgid "PleasePickADay"
+msgstr "Please pick at least a day."
+
+msgid "CantOverlapLesson"
+msgstr "Can't schedule overlapping lesson times."
+
+msgid "DurationNotZero"
+msgstr "Lesson duration can not be zero."
+
+msgid "NoDuplicateFound"
+msgstr "Congrats! no duplicate entry found."
+
+msgid "CoachDetail"
+msgstr "coach detail."
+
+msgid "AtleastOneAttachment"
+msgstr "Please add at least one image."
+
+msgid "MarkAsDefault"
+msgstr "Mark a default image."
+
+msgid "LessonStatusUpdate"
+msgstr "Status has been updated."

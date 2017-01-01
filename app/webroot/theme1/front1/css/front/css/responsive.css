@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+@media only screen and (min-width:1400px){
+.avai-color ul li{ width:19.8%;}
+.modal .modal-body01{ height:480px;}
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+.filter-bar{ height:480px;}
+}
+
+@media only screen and (min-width:1600px){
+.filter-bar{ height:480px;}	
+	}
+		
+@media only screen and (max-width:1199px){
+
+.item-box .pro-img img {
+  height: auto;
+  width: 100%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -20px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -20px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.foot-1 h2 {
+  font-size: 17px;
+  margin-top: 0;
+}
+.promo .overview h2 {font-size: 23px; margin-top: 0;}
+.promo .overview .summary li {font-size: 16px;}
+.how-it {margin-top: 64px;}
+.promo .overview .btn-group{ margin-left:0px;}
+.promo .overview .btn-group li a{ width:181px; background-size:100%;}
+.promo .overview .btn-group li.android-btn a{background-size:100%;}
+.promo .ipad .ipad-holder{height: 420px;}
+.features{padding:40px 0px 0px 0px;}
+.how .video-container{ margin-top:0px;}
+.how{padding: 40px 0;}
+.faq {padding: 20px 0 40px;}
+.faq .title{ margin-bottom:40px;}
+.testimonials .title{ margin-bottom:40px;}
+.testimonials{padding: 20px 0;}
+.social-icons{padding:10px 0px 0px 0px;}
+.contact{ padding:40px 0px;}
+.get-start a{font-size: 16px; font-weight:bold;}
+}
+
+@media only screen and (max-width:991px){
+.get-start a{font-size: 16px; font-weight: normal;}
+.header h1.logo{font-size: 26px;}
+.promo .ipad .ipad-holder {
+  height: 600px;
+}
+.flexslider .slides img{ margin-top:1px;}
+.promo .overview .summary {margin-left: 94px;}
+.how-it {
+    margin-top: 0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 0;
+}
+.foot-1 ul li a{font-size: 15px;}
+.get-start a {
+  font-size: 19px;
+ 
+}
+.logo-footer a {font-size: 32px;}
+.social-icons a {height: 33px;padding-top: 7px;width: 33px;}
+.social-icons a .fa::before{ font-size:16px;}
+.item-box .pro-img img {height: auto; width: 80%;}
+.promo .overview {margin-top: 30px;}
+.promo .overview h2 {margin-bottom: 20px;}
+.promo .overview .summary {margin-bottom: 40px;}
+.promo .ipad.ipad-black .ipad-holder {margin-top: 20px;}
+.header .main-nav .nav .nav-item a {font-size: 13px;}
+.foot-1{ text-align:center;}
+.logo-footer{text-align:center;}
+.social-footer .text-center{ text-align:right;}
+.get-start {text-align: left;}
+.footer{ text-align:center;}
+}
+/*====  Mobile Landscape (480px) ======= */
+@media only screen and (max-width:767px){
+.how-it {margin-top:0px;}
+.promo .overview{ text-align:left;}
+.promo .overview .summary{ margin-left:0px; padding-left:0px;}
+.promo .overview .btn-group li {display: inline-block;}
+.foot-1{ text-align:center; margin-bottom:15px;}
+.logo-footer {text-align: center;}
+.social-footer .text-right{ text-align:center;}
+body{ overflow-x:hidden;}
+html{ overflow-x:hidden;}
+.footer{ text-align:center;}
+.social-footer .text-center{ text-align:center;}
+.get-start {text-align: center;}
+.contact .social-icons {
+  margin-top: 18px;
+  padding-top: 0;
+}
+}
+
+@media only screen and (max-width:690px){
+.promo .ipad .ipad-holder {height: 580px;}
+}
+
+@media only screen and (max-width:568px){
+.promo .ipad .ipad-holder {height: 500px;}
+}
+/*====  Mobile Portrait (320px) ======= */
+@media only screen and (max-width:490px){
+.promo .ipad .ipad-holder {height: 260px;}
+.promo .overview .btn-group li a {width: 100%; font-size:21px; margin:0px;}
+.promo .overview .btn-group li{ display:block;}
+.promo .overview .download-area {display: block;}
+.promo .overview .btn-group{display: block;}
+.promo .overview .summary li {background: url("../../../img/front/bullet.png") no-repeat scroll left 5px rgba(0, 0, 0, 0);}
+.get-start a{ width:100%;}
+.promo .overview{ padding-left:15px; padding-right:15px;}
+}
+
+
+/*====  Mobile Portrait (480px) ======= */
+/*==============
+ edited on 30-sep-2015 by kapil
+  =================*/
+@media only screen and (max-width:440px){
+.order-status-top{font-size: 22px; margin: 5px auto 18px;}  
+.cancel-popup .button-order .orange{margin-bottom: 20px;}
+.shipping-address.order-summary{margin-left: 0px;}
+.order-details .order-summary .sky{width: 100%;}
+.cancel-popup .button-order .orange{width: 100%;}
+.cancel-popup .button-order .white{margin-left: 0px;width: 100%;}
+.cancel-order .cancel-popup{margin-bottom: 5px;}
+#buy .order-summary p, #buy .change-address p, #buy .edit-order p{font-size: 12px;}
+.order-status-tagline{margin-bottom: 10px;}
+.order-status-tagline li{width: 100%;float: none;}
+.change-address .button-order .green{margin-bottom: 10px;}
+.change-address .button-order .green{width:100%;}
+.change-address .button-order .white{width: 100%;margin-left: 0px;}
+.change-address{margin-bottom: 10px;}
+.edit-order-new-item .note-desc{padding: 15px;}
+#buy .edit-order-new-item .charged-more p{font-size: 15px;}
+.edit-order-new-item .button-order .green{margin-bottom: 10px;}
+.edit-order-new-item .button-order .white{width: 85%;}
+#buy .edit-order-new-item .note-desc p{font-size: 15px;}
+.edit-order-new-item .button-order{margin: 15px 0 ;}
+.edit-order .button-order .orange{margin-bottom: 10px;width: 100%;}
+.edit-order .button-order .white{width: 100%;margin-left: 0px;}
+.buy-logo {margin-bottom: 10px;}
+}
+
+

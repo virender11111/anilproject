@@ -1,0 +1,1 @@
+<?php echo $this->fetch('footer_js'); ?>

@@ -1,0 +1,438 @@
+@charset "utf-8";
+.container{ width:auto; max-width:1330px;}
+
+@media(min-width:1400px){
+.Banner-form ul li input[type="text"]{ width:544px;}
+}
+
+@media(min-width:768px){
+.Footer-content{ display:block !important;}
+}
+
+@media(max-width:1366px){
+.Banner-form ul li input[type="text"]{ width:450px;}
+}
+
+@media(max-width:1280px){
+.detailes-list li{ padding:0 20px;}    
+.set-date-col{ margin-left:30px;}
+}
+
+@media(max-width:1200px){
+.Video-panel-Div .Add-new-btn i{ font-size:100px;}    
+.banner-form h1{ font-size:42px; line-height:46px;}    
+.home-heading1 h2{ font-size:36px; line-height:40px;}
+.home-heading1 span, .banner-panel-caption, .Video-title, .Bottom-button .orange-btn{ font-size:24px; line-height:28px;}
+.Circle span{ font-size:22px; line-height:26px;}
+.side-lesson-info .orange-btn{ font-size:21px; line-height:24px;}
+.common-panel-title span, .set-date-col span, .cost-panel div, .side-lesson-info .orange-btn{ font-size:18px; line-height:22px;}
+.navbar-default .navbar-nav > li > a, .Panel-field input[type="text"], .Panel-field input[type="password"], .Panel-field select, .Panel-field textarea, .Field-col span, .custom-radio label, .Week-checkbox label span, .Weekly-time li div, .fields-icon, .start-Lesson span{ font-size:14px;}
+
+.Banner-form ul li input[type="text"] { font-size: 16px; max-width: 300px; width: 100%;}
+.Banner-form ul li input { height: 36px;}
+.Banner-form ul li input[type="submit"] {font-size: 18px; width: 65px;}
+.Banner-form{ padding:20px 20px 15px;}
+.banner-form h1{ margin-bottom:5px;}
+.app-link a{ margin-right:0px;}
+.app-link a img{max-width: 135px;}
+.home-heading1{ padding:30px 0;}
+.home-heading2 { padding: 20px 0 50px;}
+.banner-panel-caption{ padding:11px 0 15px;}
+.banner-panel-row li{ padding:0 11px; margin-bottom:22px;}
+.Form-modal-wrap, #Signup-modal .Form-modal-wrap{max-width:344px; margin: 30px auto;}
+#Signup-modal #recaptcha2 {padding-left: 0;}
+#Signup-modal #recaptcha2 > div{transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1);}
+#Signup-modal #recaptcha2 > div{ margin:0px;}
+.pop-Baner{display:none;}
+.popup-form, #Signup-modal .popup-form{ padding:15px 20px;}
+.popup-subtext1{ margin-top:0px;}
+.form-ul-02 input[type="text"], .form-ul-02 input[type="password"]{padding: 6px 8px;}
+.Footer-social li:nth-child(3) a i {margin-top:9px;}
+.Footer-social li:first-child a i{ margin-top:9px;}
+.navbar-default .navbar-nav > li > a{padding: 11px 26px 12px;}
+.Main-row{ margin-top:35px;}
+.listing-inner-box{ height:320px;}
+.listing-box{ height:385px;}
+.Video-control li{ height:40px;}
+.Video-control li .Video-control-icon{ width:28px; height:28px;}
+.Video-control li i{ font-size:26px;}
+.listing-box { height: 377px;}
+.Cost-div1{ height:70px; width:70px; font-size:22px; padding-top:19px;}
+.Main-row2{ margin-top:2px; width:100%; display:inline-block;}
+.breadcrumbs-row ul li:first-child{ margin-left:0px; padding-left:0px;}
+.common-panel-content{ padding:20px;}
+.custom-radio label::before{ width:15px; height:15px;}
+.custom-radio label{ padding-left:21px;}
+.Field-col-div{ padding-left:10px; padding-right:0px;}
+.radio-option-List{ margin-left:20px;}
+.option-List .custom-radio:nth-child(2) { min-width: 95px;}
+.option-List .custom-radio{ margin-left:0px;}
+.Fieldsub-title{ min-width:73px;}
+.Week-checkbox label{ width:100%;}
+.week-checkbox-row{ width:100.7%;}
+.custome-space{ margin:0 -10px;}
+.custome-space > .col-md-6{ padding:0 10px;}
+.custome-space .info-right {padding-right: 30px;}
+.from-time-picker { float: right; width: 77%; margin:0;}
+.from-time-picker img{ height:52px;}
+.Bottom-button .orange-btn {padding: 16px 0 17px; width:220px;}
+
+.Custom-timpkr table td.separator{ padding:0 18px !important;}
+.devider-fieldcol .Field-devider{ padding:0 15px;}
+.Custom-timpkr td{ padding:0 58px !important;}
+.time-picker-col{ padding-right:50px;}
+.fields-icon, .devider-fieldcol .fields-icon{ padding-top:15px;}
+.adding-col > .row{ margin-left:0px;}
+.adding-col > .row > .Add-Column{ padding-left:0px;}
+.Bottom-button .orange-btn{margin: 0 0 0 70px;}
+.refresh-outer{margin: 0 0 0 70px;}
+.About-Coach .element-col{ text-align:center;}
+.About-Coach .element-col > img{ max-width:93%;}
+.Weekly-time-row { padding-top: 16px;}
+.Weekly-time-row i{position: relative; top: -3px;}
+.Panel-field.form-page-field li { margin: 0 0 10px;}
+.cost-panel{ padding:21px 0;}
+.side-lesson-info{ padding:20px 15px;}
+.set-date-outer{ padding:10px;}
+.set-date-col { float: right; margin: 9px 0 0 0px;}
+.calendar-icon{ width:40px; height:40px;}
+.set-date-outer.margin-bot-40{ margin-bottom:15px;}
+.side-lesson-info .orange-btn{ padding:15px 0;}
+.review-left{ width:58%;}
+.review-right{ width:42%;}
+.side-panel { margin-top:-55px;}
+.cost-panel{ padding:17px 5px 0; height:55px;}
+.cost-panel div{ padding:0 5px;}
+.side-lesson-info { padding: 10px 10px;}
+.caleendar-Icon{ width:100%; text-align:center;}
+.common-panel-title span, .set-date-col span, .cost-panel div{ font-size:16px;}
+.set-date-col{ margin:2px 0 0 0;}
+.side-lesson-info .orange-btn { padding: 10px 0;}
+.detailes-list li { padding: 0 10px;}
+.Circle{ left:20px; top:20px; width:150px; height:150px;}
+.Video-slider #slideshow-2 .cycle-item{ width:237px !important;}
+.Video-slider #slideshow-2 .video-icon span{ width:28px; height:28px;}
+.Video-slider #slideshow-2 .video-icon i { font-size:14px;  margin:6px 0 0 2px;}
+.Video-slider #slideshow-1 .video-icon span { height: 60px; width: 60px;}
+.Video-slider #slideshow-1 .video-icon i { font-size: 26px; margin: 16px 0 0 8px;}
+.Video-slider #slideshow-2 .cycle-item{ padding:0 5px;}
+.Video-slider #slideshow-2 { margin-top: 5px;}
+.Video-slider .Video-Arrow a { bottom: -89px;}
+.Video-slider #slideshow-2{ margin-left:-2px;}
+}
+
+@media(max-width:980px){
+.margin-bot-30 { margin-bottom:20px;}    
+
+.Video-panel-Div .Add-new-btn i{ font-size:70px;}    
+.banner-form h1, .Add-Button i{ font-size:36px; line-height:40px;}
+.home-heading1 h2{font-size:30px; line-height:34px;}
+.user-short-info .user-name > span{ font-size:25px; line-height:30px;}
+.trash-button i{ font-size:21px;}
+.Video-title, .gallery-link .link-div2 a{ font-size:20px; line-height:24px;}
+.home-heading1 span, .banner-panel-caption, .Video-panel-Div .Add-new-btn span, .Circle span{ font-size:18px; line-height:22px;}
+.banner-form .banner-subtext, .Details-title{ font-size:16px; line-height:20px;}
+.Radio-btn label span, .Add-Button span{ font-size:14px;}
+.Footer p, .Footer-menu li a{ font-size:13px; line-height:20px;}
+
+.banner-panel-row li {margin-bottom:24px; padding: 0 12px;}
+.home-heading2 { padding: 20px 0 40px;}
+.Footer{ border-width:1px;}
+.Footer-menu li{ margin-bottom:3px; padding-bottom:3px;}
+.Footer-social > span{ margin-bottom:12px; padding-bottom:8px;}
+.Footer{ padding:25px 0 15px;}
+.Footer-social li a{ width:32px; height:32px;}
+.Footer-social li a i{ font-size:17px; margin-top:5px;}
+.Footer-social li:nth-child(3) a i {margin-top:7px;}
+.Footer-social li:first-child a i{ margin-top:6px;}
+.listing-box { height:361px;}
+.custome-space .info-right { padding-right: 39px; margin-top:10px;}
+.Panel-field li { margin-top: 10px;}
+.Custom-timpkr li{margin-top:0px;}
+.custome-space > .col-md-6{ padding-top:0px;}
+.time-picker1{ margin-bottom:0px;}
+.week-checkbox-row{ padding-bottom:2px;}
+.Weekly-time-content{ padding-top:25px;}
+.from-time-picker img{ float:right;}
+.Custom-timpkr td { padding: 0 70px !important;}
+.timepicker{ padding-left: 20px;}
+.Custom-timpkr table{ width:auto;}
+.Custom-timpkr table td.separator { padding: 0 37px !important;}
+.Weekly-time li{ margin-bottom:10px;}
+.lesson-trashbtn{ margin-top:1px;}
+.Add-Button span{ margin-top:0px;}
+.About-Coach .element-col > img{ max-width:85%;}
+.shedule-Time { border-right:none;}
+.shedule-Time-content { padding-right: 0;}
+.Weekly-time-content { padding-left:0px;}
+.Circle{width:120px; height:120px;}
+.review-left, .review-right { width: 100%;}
+.review-col {float: left; margin: 13px 0 6px;}
+.detailes-list{ text-align:left;}
+.detailes-list{ padding-top:5px;}
+.detailes-list li{ width:auto; padding:0 0px 30px 50px;}
+.detailes-list li:first-child, .detailes-list li:nth-child(5){ padding-left:0px;}
+.detailes-list li:last-child{ float:none; vertical-align:top;}
+.detailes-list li:last-child, .detailes-list li:nth-child(5){ padding-bottom:0px;}
+.light-gray-panel{ padding:15px 15px;}
+.When-details li{ width:24%; padding:0px; margin:0 0 15px 4px; vertical-align:top; float:left;}
+.When-detail-row .Seemore-btn{ margin-top:-10px;}
+.all-detail-show { height: 80px;}
+.When-details li:nth-child(5) .all-detail-show, .When-details li:nth-child(6) .all-detail-show, .When-details li:nth-child(7) .all-detail-show{ height:auto;}
+.gallery-link .link-div2 a{ width:100px; height:100px; padding-top:36px;}
+.Video-slider #slideshow-2 .cycle-item { width: 151px !important;}
+.Video-slider .Video-Arrow a { bottom: -65px;}
+ }
+
+@media(max-width:960px){
+.banner-panel-row li {margin-bottom: 18px; padding: 0 9px;}    
+.listing-box { height:314px;}
+}
+@media(max-width:768px){
+.listing-box { height:307px;}    
+}
+
+@media(max-width:767px){
+.margin-bot-100{ margin-bottom:20px;}
+.margin-bot-90{ margin-bottom:20px;}
+.margin-bot-80{ margin-bottom:20px;}
+.margin-bot-75{ margin-bottom:20px;}
+.margin-bot-70{ margin-bottom:20px;}
+.margin-bot-65{ margin-bottom:20px;}
+.margin-bot-60{ margin-bottom:20px;}
+.margin-bot-55{ margin-bottom:20px;}
+.margin-bot-50{ margin-bottom:20px;}
+.margin-bot-45{ margin-bottom:20px;}
+.margin-bot-40{ margin-bottom:20px;}
+.margin-bot-35{ margin-bottom:20px;}
+.margin-bot-30{ margin-bottom:20px;}
+.margin-bot-25{ margin-bottom:20px;}    
+    
+.video-icon-div3 i{ font-size:40px;}    
+.home-heading1 h2 { font-size:24px; line-height:28px;}    
+.banner-form h1, .shedule-Time-content .orange-btn, .Bottom-button .orange-btn, .Timpickr .year-input { font-size:18px; line-height:20px;}    
+.Custom-timpkr span.timepicker-hour, .Custom-timpkr span.timepicker-minute, .hourspicker .year-input{ font-size:16px;}
+.home-heading1 span, .banner-panel-caption, .Footer-social > span, .Custom-timpkr .glyphicon-triangle-bottom, .Custom-timpkr .glyphicon-triangle-top, .Timpickr .fa { font-size:14px; line-height:18px;} 
+.banner-form .banner-subtext{ font-size:13px; line-height:18px;}
+.Custom-timpkr .timepicker-minutes .table-condensed td, .Custom-timpkr .timepicker-hours .table-condensed td{ font-size:12px;}
+    
+.Banner-form ul li input[type="text"] { font-size: 12px; max-width: 200px; padding: 0 8px;}    
+.Banner-form ul li input {height:30px;}    
+.Banner-form ul li input[type="submit"] {font-size: 14px; padding: 0; width: 45px;}
+.Banner-form { padding: 10px 15px 5px;}
+.banner-form .banner-subtext{ margin-bottom:10px;}
+
+/*footer*/
+.Footer { border-width: 0; padding: 0 0 15px;}
+.Footer-col .Footer-content{ display:none;}
+.footer-row li{ padding:0px; margin:0 0 1px 0;}
+.Footer h4 { color: #fff; font-size: 14px; margin: 0; padding: 10px 15px; cursor:pointer; font-family: 'robotomedium'; background:url(../img/plus.png) 97% center no-repeat #666;}
+.Footer h4.active{ background-image:url(../img/minus.png);}
+.Footer-content{ padding:10px 15px; background:#eee; overflow:hidden;}
+.Footer p, .Footer-menu li a{ color:#666;}
+.Footer-menu li{ border-color:#ccc; padding:0 0 3px; margin-bottom:3px;}
+.Footer-social { margin-top: 0;}
+.app-link a { margin-right:10px;}
+/*/footer*/
+
+.banner-panel-row{ padding:0px;}
+.banner-panel-row li{ padding:0px;}
+.banner-panel-row li a{ display:block;}
+.full-panel1 li:first-child { padding:0;}
+.full-panel1 li:last-child {padding: 0;}
+.home-heading2 {padding: 0px 0 20px;}
+.Header-menu li{margin: 0 12px 0 0;}
+.banner-panel-row li{ margin-bottom:10px;}
+.Footer p:last-child{ margin-bottom:0px;}
+.footer-row > li:last-child .Footer-content{ padding:20px 15px;}
+.Footer-social li{ margin:0 0 0 3px;}
+.Footer-social li a { height: 28px; width: 28px;}
+.Footer-social li a i{ font-size:14px;}
+.Footer-social > span {margin-bottom: 9px; padding-bottom: 5px;}
+.Newsletter input[type="text"]{padding: 5px 8px 5px 41px;}
+.Home-header #sticky-wrapper{min-height: 70px !important;}
+.login-user ul{ text-align:left;}
+.navbar-header { display: block;}
+.listing-box { height: auto;}
+.Video-panel { margin-bottom: 20px;}
+.Video-panel .Video-panel-Div{ position:relative; padding:0px;}
+.Video-panel .Button-outer{ padding:50px;}
+.Footer-social li:nth-child(3) a i {  margin-top: 5px;}
+.Footer-social li:first-child a i { margin-top: 4.5px;}
+.listing-box { padding: 20px;}
+.Video-control{ margin-bottom:0px;}
+.Main-row {margin-top: 0;}
+
+.Bootstrap-Nav .navbar-toggle{ padding:8px 7px;}
+.Bootstrap-Nav .navbar-default .navbar-toggle, .Bootstrap-Nav .navbar-default .navbar-toggle:hover, .Bootstrap-Nav .navbar-default .navbar-toggle:focus{ background:#616161;}
+.Bootstrap-Nav .navbar-default .navbar-toggle .icon-bar { background-color: #fff;}
+.Bootstrap-Nav .navbar-toggle .icon-bar{ width:18px;}
+.Bootstrap-Nav .navbar-toggle .icon-bar + .icon-bar { margin-top: 3px;}
+.Bootstrap-Nav .navbar-collapse{ border:none;}
+.Bootstrap-Nav .navbar-nav { margin: 0;}
+.Bootstrap-Nav .navbar-default .navbar-nav > li{ border-top:1px solid #ccc;}
+.Bootstrap-Nav .navbar-default .navbar-nav > li > a { padding: 9px 15px 10px;}
+.Bootstrap-Nav .dropdown-menu li{ display:block; position:relative;}
+.Bootstrap-Nav .dropdown-menu li a{padding:4px 15px 4px 29px;}
+.Bootstrap-Nav .dropdown-menu li:before{content: "\f105"; font-family: 'FontAwesome'; position:absolute; left:16px; top:7px;}
+.Inner-Header-rt .Header-menu li:last-child{ margin-right:0px;}
+.login-user .user-photo{ width:40px; height:40px;}
+.login-user{margin: -5px 0 0;}
+.Inner-Header-rt .orange-btn{ padding:4px 8px 5px; margin:7px 4px 0 0;}
+.Inner-Header-rt .Header-menu{ margin:10px 0 0 0;}
+.Inner-Logo{ padding-right:0px;}
+.shedule-Time{ border-right:none;}
+.Weekly-time-content { padding-left: 0;}
+.Field-col, .time-picker-box, .Weekly-time-row { min-height: 40px;}
+.Panel-field input[type="text"], .Panel-field input[type="password"], .Panel-field select, .full-chkbox-col, .shedule-Time-content .orange-btn, .Field-devider, .fields-icon, .yearpicker-lable{ height:40px;}
+.Custom-timpkr table td .btn.btn-primary{ height:42px;}
+.Custom-timpkr .table-condensed tr:last-child td .glyphicon-triangle-bottom{ top:-26px;}
+.Custom-timpkr .table-condensed tr:first-child td .glyphicon-triangle-top{ top:3px;}
+.Custom-timpkr div.timepicker div table.table-condensed{ height:20px;}
+.devider-fieldcol .fields-icon { padding-top: 12px;}
+.hourspicker a{ width:35px; height:35px;}
+.hourspicker a{ padding-top:5px;}
+.Field-col-div{ padding-top:6px;}
+.Price-label, .fields-icon{ padding-top:10px;}
+.fields-icon{ line-height:18px;}
+span.Queasion-mark{ right:-30px;}
+.custome-space > .col-md-6.info-right{ padding-bottom:0px;}
+.common-panel-content { padding:15px;}
+.Weekly-time-row {padding-top: 10px;}
+.Weekly-time-row i {font-size: 20px; position: relative; top: -1px;}
+.Bottom-button .orange-btn{ padding:10px 0;}
+.Custom-timpkr .glyphicon{ padding:10px 11px;}
+.Custom-timpkr td { padding:0px 50px !important;}
+.time-picker-col { padding-right: 60px;}
+.timepicker { padding-left: 6px;}
+.Custom-timpkr table td .btn.btn-primary, .Custom-timpkr table td, .Custom-timpkr table td > span{}
+.hours-Text{margin: 11px 0 0 24px;}
+.yearpicker-lable{padding:10px 0 0 20px;}
+.Timpickr{ margin:0;}
+.hourspicker{ margin:2px 0 0 0;}
+.Panel-field textarea{ height:100px;}
+.adding-col > .row > .Add-Column{ padding-left:0px; margin-bottom:10px;}
+.Bottom-button .orange-btn{width:180px;  margin: 0 0 0 30px;}
+.refresh-outer{margin: 0 0 0 30px;}
+.About-Coach .element-col > img{ max-width:97%;}
+.yearpicker{ margin-top:7px;}
+.refresh-outer .loading-image{ top:11px;}
+.form-page .Bottom-button{ text-align:center;}
+.form-page .Main-row{ margin-top:15px;}
+}
+
+@media(max-width:560px){
+.Inner-Header{ padding:0px;}    
+.Inner-Logo{ margin:15px 0;}
+.Inner-Logo, .Inner-header-rt{ width:100%; text-align:center;}
+.Inner-Header-rt { float: none;}
+.Inner-header-rt { background: #eee none repeat scroll 0 0; padding: 10px 0;}
+.navbar{ margin-bottom:10px;}
+.option-List .custom-radio { margin-left: 0;}
+.custome-space > .col-md-6{ padding-right:0px; padding-left:0px;}
+.custome-space .info-right{ padding-right:30px;}
+.radio-option-List { margin-left:7px;}
+.Custom-timpkr table td.separator { padding: 0 17px !important;}
+.Custom-timpkr td {padding: 0 44px !important;}
+.Custom-timpkr .glyphicon { padding: 10px 11px;}
+.Custom-timpkr table td .btn.btn-primary { height: 42px;}
+.fields-icon, .devider-fieldcol .fields-icon { padding-top: 11px;}
+.common-panel-title{ padding:9px 15px;}
+.About-Coach .element-col > img{ max-width:92%;}
+.option-List .custom-radio:nth-child(2) { min-width: inherit;}
+}
+
+@media(max-width:479px){
+.Video-panel-Div .Add-new-btn i { font-size:52px;}    
+.video-icon-div3 i{ font-size:34px;}        
+.home-heading1 h2 {font-size: 20px; line-height: 24px;}
+.Video-panel-Div .Add-new-btn span, .Video-title, .Bottom-button .orange-btn, .Timpickr .year-input, .common-panel-title span{ font-size:16px; line-height:20px;}
+.Custom-timpkr span.timepicker-hour, .Custom-timpkr span.timepicker-minute, .hourspicker .year-input{ font-size:14px;}
+.home-heading1 span, .banner-panel-caption, .Start-Dt .orange-btn { font-size: 13px; line-height: 16px;}
+
+.Home-header #sticky-wrapper{ position:relative; background:#000; text-align:center;}    
+.Header-menu li a, .Header-rt .orange-btn{ font-size:13px;}
+.Home-header .container > .row > div:first-child img{ width:100%; height:auto;}
+.Home-header .container > .row > div:first-child{ width:50%; padding-top:10px;}
+.Home-header .container > .row > div:last-child{ width:40%; text-align:right; padding-left:0px; float:right;}
+.Header-rt .orange-btn{ padding:3px 11px 4px; margin-bottom:5px;}
+.Header-menu{ margin:0px;}
+.Header-menu li:last-child{ margin-right:0px;}
+.banner-form{ position:relative; background:#333; padding:15px 0 0;}
+.banner-form .banner-subtext { margin-bottom: 15px;}
+.Banner-form ul li{ width:100%; margin-bottom:8px;}
+.Banner-form ul li input[type="text"], .Banner-form ul li:first-child input[type="text"]{ width:100%; max-width:inherit;}
+.Banner-form { padding: 18px 15px 5px;}
+.home-heading1 {padding: 20px 0;}
+.home-heading2 {padding: 8px 0 20px;}
+.home-heading1 span{ display:inline-block;}
+.Top-banner .Header{ min-height:85px; padding-bottom:0px;}
+.Home-header #sticky-wrapper{min-height: 83px !important;}
+.Form-modal-wrap, #Signup-modal .Form-modal-wrap{max-width:310px; margin-top:10px; margin-bottom:0px;}
+#Signup-modal #recaptcha2 > div, #Login-modal #recaptcha1 > div { left: -16px; position: relative; transform: scale(0.904); -webkit-transform: scale(0.904); -moz-transform: scale(0.904);}
+.popup-form, #Signup-modal .popup-form { padding: 15px 18px;}
+.Home-header2 .login-user { margin: 0;}
+.login-user > a{ padding-right:20px;}
+.login-user > a::after{ right:0px;}
+.Inner-Header-rt .orange-btn{ margin:10px 30px 0;}
+.login-user .user-photo{box-shadow: 0 0 4px #999; -webkit-box-shadow: 0 0 4px #999; -moz-box-shadow: 0 0 4px #999;}
+.Cost-div1 { font-size: 14px; height: 42px; padding-top: 12px; width: 42px;}
+.Cost-col{ right: 8px; top: 8px;}
+.Video-control li .Video-control-icon { height: 22px; width: 22px;}
+.Video-control li i { font-size: 21px;}
+.Video-control li { height: 35px;}
+.Fieldsub-title { display: block; border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-bottom: 5px;}
+.Field-col-div { padding-left: 10px; padding-right:10px;}
+.radio-option-List, .option-List{ margin-bottom:5px;}
+.shedule-Time-content { padding-right: 0;}
+.Week-checkbox{ padding:0px;}
+.week-checkbox-row { width: 100%; margin:0px;}
+.fields-icon{border-bottom: 1px solid #b0b0b0; border-right:none; width:100%; text-align:left; padding:7px 12px; height:auto; margin-bottom:5px;}
+.hourspicker {margin-left: 0;  margin-top: 0; padding: 0;}
+.hourspicker .year-input{ padding:0 10px;}
+.hours-Text{margin: 8px 0 0 16px;}
+.devider-fieldcol .Field-devider, .devider-fieldcol .fields-icon{ display:block;}
+.devider-fieldcol .Field-devider{ padding:0px;}
+.fields-icon, .devider-fieldcol .fields-icon{ padding-top:7px;}
+.devider-fieldcol .Field-col{ display:inline-block;}
+.Custom-timpkr table td .btn.btn-primary { font-size: 14px; width: auto; padding: 0 8px;}
+.fields-icon{ margin-bottom:0px;}
+.Custom-timpkr .glyphicon { padding: 5px 6px;}
+.Custom-timpkr td { padding: 0 35px !important;}
+.Custom-timpkr .table-condensed tr:first-child td .glyphicon-triangle-top { top:9px;}
+.Custom-timpkr .table-condensed tr:last-child td .glyphicon-triangle-bottom { top: -20px;}
+.timepicker-picker{ margin-top:-2px;}
+.Custom-timpkr table td .btn.btn-primary { height: 40px;}
+.hourspicker a { height: 26px; width: 26px; padding-top:0px;}
+.hours-Text { margin: 3px 0 0 16px;}
+.time-picker-0{ margin-top:6px;}
+.Week-checkbox label:before, .Week-checkbox input[type="checkbox"]:checked + label::before{ border-right:none;}
+.Week-checkbox:last-child label:before, .Week-checkbox:last-child input[type="checkbox"]:checked + label::before{ border-right:1px solid #b0b0b0}
+.Weekly-time-row{ text-align:center; padding-left:10px; padding-right:10px;}
+.Weekly-time-row > div{ padding:0px; width:auto; display:inline-block; float:none;}
+.Weekly-time-row > div:first-child{ float:left; min-width: 60px; text-align: left;}
+.Weekly-time-row > div:last-child{ float:right;}
+.change-dd .orange-btn{ top:0px;}
+.Bottom-button .orange-btn { padding: 8px 0; width:100%; max-width:130px;}
+.radio-option-List { margin-left: 0;}
+.change-dd{ vertical-align:top; display:inline-block; margin-top:3px;}
+.adding-col > .row > .Add-Column{ width:100%;}
+.yearpicker-lable {float: right; padding: 9px 7px 0;}
+.yearpicker { padding: 0; text-align: center; width:83px;}
+.Timpickr .year-input{ padding-left:7px; padding-right:7px;}
+.Panel-field input[type="text"], .Panel-field input[type="password"], .Panel-field select, .Panel-field textarea{padding: 0 10px 2px;}
+.Panel-field textarea { padding-top: 7px;}
+.adding-col-title{ margin-left:0px;}
+.Bottom-button .orange-btn{ min-width:110px;}
+.Bottom-button .orange-btn { margin: 0 0 0 6px;}
+.about-lesson > .row > .Add-Column{ margin-bottom:20px;}
+.about-lesson > .row > .Add-Column:last-child{ margin-bottom:0px;}
+.Start-Dt{ margin-top:5px;}
+.Start-Dt .orange-btn{ margin-left:0px; margin-top:5px;}
+.About-Coach .element-col > img{ max-width:99%;}
+.timepicker { padding-left: 11px;}
+}
+@media(max-width:320px){
+.Form-modal-wrap button.Close{ right:-3px; top: -10px; width:22px; height:22px;}
+.Form-modal-wrap button.Close span {font-size: 16px; line-height: 18px;}
+}
