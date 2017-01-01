@@ -79,7 +79,7 @@ CakePlugin::load(array(
     'Authenticate',
    // 'Stripe',
     //'Paypal',
-    'ExtAuth',
+    //'ExtAuth',
     'Acl'=>array('bootstrap' => true),
    'AclManager'=> array('bootstrap' => true),
    'AclExtras',
