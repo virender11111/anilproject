@@ -21,6 +21,24 @@ class Sitelink extends AppModel {
     public $name = 'Sitelink';
 
     /**
+     * Attach Behaviors
+     *
+     * @var string
+     * @access public
+     */
+    public $actsAs = array(
+        'Upload.Upload' => array(
+            'image' => array(
+                'deleteFolderOnDelete' => true,
+                'deleteOnUpdate' => true,
+                'renameFile' => true,
+                'renameWith' => 'name',
+                'uploadFileNameMaxSize' => 1000,
+                'nameCallback' => 'rename_upload_file'
+            ),
+        ),
+    );
+    /**
      * Model associations: belongsTo
      *
      * @var array
@@ -38,23 +56,26 @@ class Sitelink extends AppModel {
      */
     public $validate = array(
         'name' => array(
-           
                 'rule' => 'notBlank',
                 'message' => 'This field cannot be left blank.',
-      
         ),
-     
-        'category_id' => array(
-          
+      'description' => array(
                 'rule' => 'notBlank',
                 'message' => 'This field cannot be left blank.',
-            
+        ),
+        'category_id' => array(
+                'rule' => 'notBlank',
+                'message' => 'This field cannot be left blank.',
         ),
         'url' => array(
-           
                 'rule' => 'url',
                 'message' => 'Please fill the right url.',
-     
+        ),
+          'image' => array(
+                'rule' => array('extension',array('jpg','jpeg','png')),
+                'required' => false,
+                'allowEmpty' => false,
+                'message' => 'file should be jpg, jpeg and png'
         ),
     );
 
@@ -75,6 +96,12 @@ class Sitelink extends AppModel {
             return "Selected " . Inflector::pluralize($this->name) . " Deactivated Successfully.";
         }
         return false;
+    }
+    
+    public function rename_upload_file($field, $currentName,$data, $options = array() ){
+     $ext = pathinfo($currentName);
+     $ext = $ext['extension'];
+     return md5(rand()).time().'.'.$ext;
     }
 
 }

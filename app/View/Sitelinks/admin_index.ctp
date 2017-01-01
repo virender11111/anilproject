@@ -6,8 +6,9 @@ $this->assign('title', $title_for_layout);
 $tableHeaders[] = $this->Form->checkbox($modelClass . '.id.', array('class' => 'group-checkable', 'data-set' => "#psdata_table .checkboxes", 'hiddenField' => false));
 $tableHeaders[] = $this->Paginator->sort(__('id'), 'ID');
 $tableHeaders[] = $this->Paginator->sort(__('category_id'),'Category Name');
-$tableHeaders[] = $this->Paginator->sort(__('name'),'SubCategory name');
-$tableHeaders[] = $this->Paginator->sort(__('url'),'SubCategory url');
+$tableHeaders[] = $this->Paginator->sort(__('name'),'Name');
+$tableHeaders[] = $this->Paginator->sort(__('url'),'url');
+$tableHeaders[] = $this->Paginator->sort(__('image'),'Image');
 
 $tableHeaders[] = array($this->Paginator->sort(__('status')) => array('class' => 'status_class text-center'));
 $tableHeaders[] = array($this->Paginator->sort(__('created'), 'Created') => array('class' => 'date-class text-center'));
@@ -21,6 +22,7 @@ $tableHeaders[] = '';
 $tableHeaders[] = '';
 $tableHeaders[] = $this->Form->input($modelClass.'.category', array('label' => false, 'class' => 'form-control form-filter input-sm', 'div' => false));
 $tableHeaders[] = $this->Form->input($modelClass.'.name', array('label' => false, 'class' => 'form-control form-filter input-sm', 'div' => false));
+$tableHeaders[] = '';
 $tableHeaders[] = '';
 $tableHeaders[] = $this->Form->input($modelClass.'.status', array('label' => false, 'class' => 'form-control form-filter input-sm', 'div' => false, 'options' => array('active' => 'Active', 'deactive' => 'Deactive'), 'empty' => 'Select...'));
 $tableHeaders[] = '';
@@ -48,6 +50,7 @@ if (!empty($data)) {
         $row[] = $listOne['Category']['name'];
         $row[] = $listOne[$modelClass]['name'];
         $row[] = $listOne[$modelClass]['url'];
+        $row[] = $this->Html->image('/files/sitelink/image/'.$listOne[$modelClass]['id'].'/'.$listOne[$modelClass]['image'],array('width'=>'100px'));
         $row[] = array($this->Admin->status($listOne[$modelClass]['status']), array('class' => 'text-center'));
         $row[] = array($this->Layout->date($listOne[$modelClass]['created']), array('class' => 'text-center'));
         $row[] = array($this->Layout->date($listOne[$modelClass]['modified']), array('class' => 'text-center'));

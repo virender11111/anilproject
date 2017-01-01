@@ -121,6 +121,7 @@ class WebservicesController extends AppController {
     			foreach ($sitelinks as $key2 => $sitevalue) {
     				$sitelinks[$key2] = $sitevalue['Sitelink'];
     			}
+                         $this->output['logo_url'] = Router::url('/files/sitelink/image',true);
     			$this->output['categories'] = $categories;
     			$this->output['subcategory'] = $sitelinks;
     			$this->output['timestamp'] =time();
