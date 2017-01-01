@@ -179,7 +179,7 @@ class WebservicesController extends AppController {
         $this->loadModel('Brand');
         
        
-        $images = $this->Brand->find('all',array('status'=>1));
+        $images = $this->Brand->find('all',array('conditions'=>array('status'=>1)));
         if(count($images)>0){
             foreach ($images as $key => $image) {
     		$images[$key] = $image['Brand'];
@@ -193,5 +193,50 @@ class WebservicesController extends AppController {
     	$this->message = "Images not available";
         }
         
+    }
+    public function _collection_save(){
+        $this->loadModel('Collection');
+       $data['Collection']=$this->requestData;
+       //pr($data);die;
+       if($data['Collection']['collection_id']==0){
+           //create data 
+           $message='Collection Data are Saved';
+          }else{
+              $data['Collection']['id']=$data['Collection']['collection_id'];
+           //update data 
+               $message='Collection Data are updated';
+       } 
+           if($this->Collection->save($data)){
+               $this->status = true;
+               $this->message = $message;
+           }else{
+               pr($this->Collection->validationErrors);die;
+                $this->status = false;
+               $this->message = "Date are not save. please provide correct data";
+           }
+       
+    }
+    public function _collection_list(){
+         $this->loadModel('Collection');
+          $this->loadModel('SiteLink');
+        // $this->Collection->bindModel(array('hasOne'=>array('Category')));
+         $data = $this->Collection->find('all',array('conditions'=>array('Collection.status'=>1)));
+        // pr($data);die;
+         if(count($data)>0){
+             foreach ($data as $key => $datas) {
+                $ides= explode(',',$datas['Collection']['sitelink_id']);
+               // pr($ides);die;
+                 $sitelink_data = $this->SiteLink->find('all',array('conditions'=>array('SiteLink.status'=>1,'SiteLink.id'=>$ides)));
+                // pr($sitelink_data);die;
+                 $sitedatasss = Set::extract($sitelink_data, '{n}.SiteLink');
+                 //pr($sitedatasss);die;
+    		$data[$key] = $datas['Collection'];
+                $data[$key]['category_name']=$datas['Category'];
+                $data[$key]['subcategory']=$sitedatasss;
+            }
+            $this->output['Collection_data'] = $data;
+            $this->status = true;
+            $this->message = 'Collection Data list';
+         }
     }
 }
