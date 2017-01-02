@@ -62,7 +62,7 @@ class DATABASE_CONFIG {
         'host' => '127.0.0.1',
         'login' => 'root',
         'password' => 'miami@123',
-        'database' => 'anilproject',
+        'database' => 'collection',
         'prefix' => '',
             //'encoding' => 'utf8',
     );

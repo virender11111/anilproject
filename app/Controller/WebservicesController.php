@@ -93,6 +93,7 @@ class WebservicesController extends AppController {
         exit();
     }
     public function _dataSync(){
+    	$this->checkRequiredParameters(array('timestamp'));
     	$this->loadModel('Country');
     	$this->loadModel('Category');
     	$this->loadModel('Sitelink');
@@ -195,9 +196,11 @@ class WebservicesController extends AppController {
         
     }
     public function _collection_save(){
+    	$this->checkRequiredParameters(array('collection_id','name','image','summary','category_id','subcategory_id'));
         $this->loadModel('Collection');
        $data['Collection']=$this->requestData;
        //pr($data);die;
+       $data['Collection']['sitelink_id'] =$data['Collection']['subcategory_id'];
        if($data['Collection']['collection_id']==0){
            //create data 
            $message='Collection Data are Saved';
@@ -218,7 +221,7 @@ class WebservicesController extends AppController {
     }
     public function _collection_list(){
          $this->loadModel('Collection');
-          $this->loadModel('SiteLink');
+          $this->loadModel('Sitelink');
         // $this->Collection->bindModel(array('hasOne'=>array('Category')));
          $data = $this->Collection->find('all',array('conditions'=>array('Collection.status'=>1)));
         // pr($data);die;
@@ -226,9 +229,9 @@ class WebservicesController extends AppController {
              foreach ($data as $key => $datas) {
                 $ides= explode(',',$datas['Collection']['sitelink_id']);
                // pr($ides);die;
-                 $sitelink_data = $this->SiteLink->find('all',array('conditions'=>array('SiteLink.status'=>1,'SiteLink.id'=>$ides)));
+                 $sitelink_data = $this->Sitelink->find('all',array('conditions'=>array('Sitelink.status'=>1,'Sitelink.id'=>$ides)));
                 // pr($sitelink_data);die;
-                 $sitedatasss = Set::extract($sitelink_data, '{n}.SiteLink');
+                 $sitedatasss = Set::extract($sitelink_data, '{n}.Sitelink');
                  //pr($sitedatasss);die;
     		$data[$key] = $datas['Collection'];
                 $data[$key]['category_name']=$datas['Category'];
@@ -239,4 +242,32 @@ class WebservicesController extends AppController {
             $this->message = 'Collection Data list';
          }
     }
+    /**
+     * @author 		Virender saini
+     * email : virendersaini50@gmail.com
+     * @uses		Function used to check passed parameter is in request or not
+     * @access		private
+     */
+    public function checkRequiredParameters($reqParameters) {
+    	$requestObj = array_keys($this->requestData);
+    	$resp = true;
+    	$missingParam = array();
+    	foreach ($reqParameters as $v) {
+    		if (!in_array($v, $requestObj)) {
+    			$resp = false;
+    			$missingParam[] = $v;
+    		}
+    	}
+    	if (!$resp) {
+    		$this->status = false;
+    		$this->message = 'Insufficient Parameters.Missing Parameters are ' . implode(', ', $missingParam);
+    		$this->output['message'] = $this->message;
+    		$this->output['status'] = $this->status;
+    		$output = json_encode($this->output);
+    		header('Content-Type: application/json');
+    		echo $output;
+    		exit();
+    	}
+    }
+    
 }
